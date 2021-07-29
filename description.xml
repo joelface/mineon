@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HwTheme>
+    <title>Mineon</title>
+    <title-cn>Mineon</title-cn>
+    <author>Joel Bruick</author>
+    <designer>Joel Bruick</designer>
+    <screen>HWHD07</screen>
+    <version>2.1.0</version>
+    <font>Default</font>
+    <font-cn>默认</font-cn>
+    <briefinfo></briefinfo>
+</HwTheme>

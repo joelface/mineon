@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<watchface>
+    <element label="widget">
+        <option res_preview_border="" index="0" res_preview="" label="Weather" data_type="21"/>
+        <option res_preview_border="" index="1" res_preview="" label="Timer" data_type="30"/>
+        <option res_preview_border="" index="2" res_preview="" label="Stopwatch" data_type="29"/>
+        <option res_preview_border="" index="3" res_preview="" label="HeartRate" data_type="11"/>
+        <option res_preview_border="" index="4" res_preview="" label="ActivityRecord" data_type="33"/>
+        <container available_option="0" index="0" label="WeatherLink" selected_option="0" is_support_option="true" rect="0,0,194,110"/>
+        <container available_option="1" index="1" label="TimerLink" selected_option="1" is_support_option="true" rect="0,110,97,112"/>
+        <container available_option="2" index="2" label="StopWatchLink" selected_option="2" is_support_option="true" rect="97,110,97,112"/>
+        <container available_option="3" index="3" label="HeartRateLink" selected_option="3" is_support_option="true" rect="0,222,97,146"/>
+        <container available_option="4" index="4" label="ActivityRecordLink" selected_option="4" is_support_option="true" rect="97,222,97,146"/>
+        <container index="5" res_preview="" label="DayOfWeek" is_support_option="false" data_type="2">
+            <layer index="0" value_type="52" res_active="A100_002.png,A100_003.png,A100_004.png,A100_005.png,A100_006.png,A100_007.png,A100_008.png,A100_002.png" label="DayAbbrev" draw_type="selected_res" res_position="2,193"/>
+        </container>
+        <container index="6" res_preview="" label="Steps" is_support_option="false" data_type="10">
+            <layer index="0" value_type="0" y_offset="0" x_offset="0" res_active="A100_009.png,A100_010.png,A100_011.png,A100_012.png,A100_013.png,A100_014.png,A100_015.png,A100_016.png,A100_017.png,A100_018.png" label="StepsNum" res_align="right" res_default="A100_009.png,A100_019.png" draw_type="combined_res" res_position="191,312"/>
+            <layer index="1" res_active="A100_020.png" label="Steps" draw_type="single_res" res_position="133,344"/>
+        </container>
+        <container index="7" res_preview="" label="HeartRate" is_support_option="false" data_type="11">
+            <layer index="0" value_type="2" y_offset="0" x_offset="0" res_active="A100_009.png,A100_010.png,A100_011.png,A100_012.png,A100_013.png,A100_014.png,A100_015.png,A100_016.png,A100_017.png,A100_018.png" label="HeartRateNum" res_align="left" res_default="A100_021.png,A100_019.png" draw_type="combined_res" res_position="3,312"/>
+            <layer index="1" res_active="A100_022.png" label="BPM" draw_type="single_res" res_position="7,344"/>
+        </container>
+        <container index="8" res_preview="" label="Weather" is_support_option="false" data_type="21">
+            <layer index="0" value_type="4" y_offset="0" x_offset="0" res_active="A100_009.png,A100_010.png,A100_011.png,A100_012.png,A100_013.png,A100_014.png,A100_015.png,A100_016.png,A100_017.png,A100_018.png" label="Temp" res_sign="A100_023.png" res_align="right" res_default="A100_021.png,A100_019.png" draw_type="combined_res" res_position="129,5"/>
+            <layer index="1" value_type="53" res_active="A100_024.png,A100_025.png,A100_026.png,A100_027.png,A100_028.png,A100_029.png,A100_030.png,A100_031.png,A100_032.png,A100_033.png,A100_034.png" label="WeatherIcon" draw_type="selected_res" res_position="152,5"/>
+            <layer index="2" res_active="A100_035.png" label="Degree" draw_type="single_res" res_position="129,5"/>
+        </container>
+        <container index="9" res_preview="" label="Unread" is_support_option="false" data_type="18">
+            <layer index="0" value_type="72" res_active="A100_036.png,A100_037.png" label="Dot" draw_type="selected_res" res_position="5,5"/>
+        </container>
+    </element>
+    <element label="date" is_support_option="false">
+        <layer index="0" value_type="71" res_active="A100_009.png,A100_010.png,A100_011.png,A100_012.png,A100_013.png,A100_014.png,A100_015.png,A100_016.png,A100_017.png,A100_018.png" label="DateLow" draw_type="selected_res" res_position="172,193"/>
+        <layer index="1" value_type="70" res_active="A100_009.png,A100_010.png,A100_011.png,A100_012.png" label="DateHigh" draw_type="selected_res" res_position="152,193"/>
+        <layer index="2" res_active="A100_038.png" label="Slash" draw_type="single_res" res_position="132,193"/>
+        <layer index="3" value_type="51" res_active="A100_039.png,A100_040.png,A100_041.png,A100_042.png,A100_043.png,A100_044.png,A100_045.png,A100_046.png,A100_047.png,A100_048.png,A100_049.png,A100_050.png,A100_039.png" label="Month" draw_type="selected_res" res_position="92,193"/>
+    </element>
+    <element label="time" is_support_option="false">
+        <layer index="0" value_type="59" res_active="A100_051.png,A100_052.png,A100_053.png,A100_054.png,A100_055.png,A100_056.png,A100_057.png,A100_058.png,A100_059.png,A100_060.png" label="HourHigh" draw_type="selected_res" res_position="0,110"/>
+        <layer index="1" value_type="60" res_active="A100_051.png,A100_052.png,A100_053.png,A100_054.png,A100_055.png,A100_056.png,A100_057.png,A100_058.png,A100_059.png,A100_060.png" label="HourLow" draw_type="selected_res" res_position="49,110"/>
+        <layer index="2" value_type="61" res_active="A100_051.png,A100_052.png,A100_053.png,A100_054.png,A100_055.png,A100_056.png,A100_057.png,A100_058.png,A100_059.png,A100_060.png" label="MinuteHigh" draw_type="selected_res" res_position="100,110"/>
+        <layer index="3" value_type="62" res_active="A100_051.png,A100_052.png,A100_053.png,A100_054.png,A100_055.png,A100_056.png,A100_057.png,A100_058.png,A100_059.png,A100_060.png" label="MinuteLow" draw_type="selected_res" res_position="149,110"/>
+        <layer index="4" res_active="A100_061.png" label="Divider" draw_type="single_res" res_position="0,181"/>
+    </element>
+</watchface>
