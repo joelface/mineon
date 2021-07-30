@@ -22,6 +22,10 @@ Windows-only software for creating your own watchfaces.
 
 * Don't use <b>File > Export</b> in Designer to build HWT files, as it has a tendency to not work for various reasons. Instead, open up a command prompt and run <b>TemplateWatch.exe</b>, which is found in the <b>export</b> subdirectory of the application. Put this subdirectory in your Windows <b>PATH</b> environment variable so you can simply call <code>templatewatch .</code> from the directory of the watchface you're building.
 
+## Mineon Installation
+
+The latest release of the watchface can be found on the [Mineon GitHub releases page](https://github.com/joelface/mineon/releases). After downloading it to your phone, upload the watchface to your band using the modded Huawei Health app. You will then be able to set it on your band by long pressing on the display.
+
 ## Mineon Build Prerequisites
 
 * ### [Inkscape](https://inkscape.org/release/)
