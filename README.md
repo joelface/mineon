@@ -18,7 +18,9 @@ Windows-only software for creating your own watchfaces.
 
 ## General Tips
 
-* When opening the Health app for the first time (and when creating a Huawei ID), it'll ask you to specify a region. Set it to India. At least for those of us in the US, you won't be able to install custom watchfaces if you use your actual location. Don't worry, everything will still be in English.
+* Before running the modded Health app for the first time, turn on airplane mode on your phone. Then when you open the app (and when creating a Huawei ID), it'll ask you to specify a region. Set it to India. At least for those of us in the US, you won't be able to install custom watchfaces if you use your actual location. Don't worry, everything will still be in English.
+
+  You can turn airplane mode off after setting the app's region.
 
 * Don't use <b>File > Export</b> in Designer to build HWT files, as it has a tendency to not work for various reasons. Instead, open up a command prompt and run <b>TemplateWatch.exe</b>, which is found in the <b>export</b> subdirectory of the application. Put this subdirectory in your Windows <b>PATH</b> environment variable so you can simply call <code>templatewatch .</code> from the directory of the watchface you're building.
 
