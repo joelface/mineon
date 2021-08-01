@@ -1,5 +1,7 @@
 # Mineon - Minimalist Neon Watchface for Huawei/Honor Band 6 (and Watchface Creation Tips!)
 
+![Mineon watchface design](design.svg?raw=true&sanitize=true)
+
 This repository contains both a simple watchface I created for the Honor Band 6 as well as some tips for people trying to make their own.
 
 ## General Prerequisites
