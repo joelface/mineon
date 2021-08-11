@@ -40,6 +40,8 @@ For exporting watchface element PNGs from <b>design.svg</b>.
 
 Used in <b>build.bat</b> to convert Mineon's preview image exported from design.svg into the proper BMP format.
 
+* ### [Larabiefont][Larabiefont]
+
 ## Mineon Build Instructions
 
 1. Open <b>design.svg</b> in Inkscape.
@@ -54,5 +56,7 @@ The resulting HWT file can be found in the <b>export/output</b> subdirectory of 
 
 ## Credits
 
-* [Larabiefont](https://typodermicfonts.com/larabiefont/) by [Typodermic Fonts](https://typodermicfonts.com/)
+* [Larabiefont][Larabiefont] by [Typodermic Fonts](https://typodermicfonts.com/)
 * [RNS Weather Icons](https://iconstore.co/icons/rns-weather-icons/) by [Yorlmar Campos](https://www.rnsfonts.com/)
+
+[Larabiefont]: https://typodermicfonts.com/larabiefont/
